@@ -12,7 +12,12 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <FocusedStatusBar background={COLORS.primary} />
+      <FocusedStatusBar 
+      background={COLORS.primary}
+      // barStyle="dark-content"
+      // backgroundColor="transparent"
+      // translucent={true}
+      />
 
       <View style={{ flex: 1 }}>
         <View style={{ zIndex: 1 }}>
